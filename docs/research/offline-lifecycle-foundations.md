@@ -1,6 +1,6 @@
 # Offline distribution and lifecycle-management foundations
 
-Research date: **2026-10-31** (`date -I` in the research environment). Scope: [planning map #1](https://github.com/jayyu-asl/OpenDataHub/issues/1), [research ticket #5](https://github.com/jayyu-asl/OpenDataHub/issues/5). The ticket was assigned to `jayyu-asl`, labelled `wayfinder:research`, and its context comment authorized this isolated report.
+Research date: **2026-10-31** (`date -I` in the research environment). Scope: [OpenDataHub — Product Definition, Architecture, and Feature Roadmap](https://github.com/jayyu-asl/OpenDataHub/issues/1), [Research offline distribution and lifecycle-management foundations](https://github.com/jayyu-asl/OpenDataHub/issues/5). The ticket was assigned to `jayyu-asl`, labelled `wayfinder:research`, and its context comment authorized this isolated report.
 
 ## Finding and evidence boundary
 
