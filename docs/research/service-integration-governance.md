@@ -2,7 +2,7 @@
 
 **Research date:** 2026-10-31, Asia/Shanghai (+08:00), from the execution environment.
 
-**Context:** [map #1](https://github.com/jayyu-asl/OpenDataHub/issues/1) and [research #4](https://github.com/jayyu-asl/OpenDataHub/issues/4), including its context comment, were read through `gh`. At research time #4 had label `wayfinder:research` and assignee `jayyu-asl`.
+**Context:** [OpenDataHub — Product Definition, Architecture, and Feature Roadmap](https://github.com/jayyu-asl/OpenDataHub/issues/1) and [Research optional service integration and governance coverage](https://github.com/jayyu-asl/OpenDataHub/issues/4), including its context comment, were read through `gh`. At research time the research ticket had label `wayfinder:research` and assignee `jayyu-asl`.
 
 ## Scope and evidence standard
 
