@@ -1,6 +1,6 @@
 # Lakehouse core interoperability and security constraints
 
-**Research date:** 2026-10-31 (environment clock). **Context:** [map #1](https://github.com/jayyu-asl/OpenDataHub/issues/1), [research #3](https://github.com/jayyu-asl/OpenDataHub/issues/3); planning baseline `d9f8e3b`.
+**Research date:** 2026-10-31 (environment clock). **Context:** [OpenDataHub — Product Definition, Architecture, and Feature Roadmap](https://github.com/jayyu-asl/OpenDataHub/issues/1), [Research lakehouse core interoperability and security integration](https://github.com/jayyu-asl/OpenDataHub/issues/3); planning baseline `d9f8e3b`.
 
 ## Scope and evidence standard
 
