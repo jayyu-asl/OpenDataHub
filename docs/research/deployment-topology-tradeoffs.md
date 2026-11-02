@@ -1,12 +1,12 @@
 # Host/YARN versus Kubernetes-led deployment trade-offs
 
-**Research date:** 2026-11-02 (environment clock). **Decision consumer:** [#7](https://github.com/jayyu-asl/OpenDataHub/issues/7); evidence ticket [#16](https://github.com/jayyu-asl/OpenDataHub/issues/16), under [map #1](https://github.com/jayyu-asl/OpenDataHub/issues/1).
+**Research date:** 2026-11-02 (environment clock). **Decision consumer:** [Define deployment topology and resource-scheduling boundaries](https://github.com/jayyu-asl/OpenDataHub/issues/7); evidence ticket [Research host/YARN versus Kubernetes-led deployment trade-offs](https://github.com/jayyu-asl/OpenDataHub/issues/16), under [OpenDataHub — Product Definition, Architecture, and Feature Roadmap](https://github.com/jayyu-asl/OpenDataHub/issues/1).
 
 ## Decision frame and result
 
 The human must select **one principal product route**, not two equally supported alternatives. No route is selected here. Rank **full lifecycle cost first**: disconnected deployment, upgrades, diagnosis, recovery and ongoing component/runtime adaptation. Performance is a workload-scoped acceptance gate, especially **interference among batch, long-running streams and interactive queries**, stability and overall utilization—not a universal peak-speed contest.
 
-The fixed [product](https://github.com/jayyu-asl/OpenDataHub/issues/2#issuecomment-6567485286), [architecture](https://github.com/jayyu-asl/OpenDataHub/issues/8#issuecomment-6568627452) and [support](https://github.com/jayyu-asl/OpenDataHub/issues/6#issuecomment-6569630098) resolutions remain binding: customer-operated, disconnected, multi-environment management; controlled Service Adoption; legacy Hive/Tez alongside shared Iceberg/HMS; separately selectable/certified HDFS and Ozone; dependency-complete Certified Paths, not arbitrary combinations. No catalog component is removed, shipping BOM chosen, or support policy reopened. Management-plane hosting is independent of the route comparison.
+The fixed resolutions of [Define product personas, boundaries, and reference acceptance scenarios](https://github.com/jayyu-asl/OpenDataHub/issues/2#issuecomment-6567485286), [Define lakehouse data architecture and interoperability contracts](https://github.com/jayyu-asl/OpenDataHub/issues/8#issuecomment-6568627452) and [Define distribution support contracts and certified component combinations](https://github.com/jayyu-asl/OpenDataHub/issues/6#issuecomment-6569630098) remain binding: customer-operated, disconnected, multi-environment management; controlled Service Adoption; legacy Hive/Tez alongside shared Iceberg/HMS; separately selectable/certified HDFS and Ozone; dependency-complete Certified Paths, not arbitrary combinations. No catalog component is removed, shipping BOM chosen, or support policy reopened. Management-plane hosting is independent of the route comparison.
 
 **Route-changing findings:**
 
@@ -102,7 +102,7 @@ These are **future acceptance requirements, not tests run**. Each must bind a Ce
 - **Cost/performance:** no equivalent full-catalog host/Kubernetes benchmark, measured operational-effort comparison or current vendor support commitment for the listed historical substrate versions was established. The comparison cannot supply numeric TCO, a universal performance ranking or proof of arbitrary CDP migration/Service Adoption compatibility.
 - **Access/scope:** `docs.transwarp.cn` timed out; the vendor's public `www.transwarp.cn/doc/...` pages were reachable and their embedded article content was read. Investigation was bounded to route-changing mechanisms, not exhaustive vendor reverse engineering. No private customer material, secondary-source technical assertions or legal conclusions are used.
 
-These are gates for a bounded decision and subsequent release certification, not reasons to promise both routes indefinitely. **The principal-route choice remains with the live human decision in #7.**
+These are gates for a bounded decision and subsequent release certification, not reasons to promise both routes indefinitely. **The principal-route choice remains with the live human decision in [Define deployment topology and resource-scheduling boundaries](https://github.com/jayyu-asl/OpenDataHub/issues/7).**
 
 ## Primary-source links
 
