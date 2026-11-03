@@ -1,6 +1,6 @@
 # Issue tracker: GitHub
 
-Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all operations.
+Release specs and decision tickets for this repo live as GitHub issues. The consolidated product requirements live in root `PRD.md`; issue resolutions retain decision rationale and evidence. Use the `gh` CLI for tracker operations.
 
 ## Conventions
 
@@ -51,6 +51,8 @@ Run `gh issue view <number> --comments`.
 ## Wayfinding operations
 
 Used by `/wayfinder`. The **map** is a single issue with **child** issues as tickets.
+
+For version maps, first read root `PRD.md`, especially **Version maps and change control**. Each map's Notes must pin an accessible accepted PRD revision and relevant requirement identifiers; trace those identifiers to release scope and acceptance evidence. A missing PRD handoff is a prerequisite blocker, not permission to plan solely from the predecessor map. Product changes follow the PRD amendment process.
 
 - **Map**: a single issue labelled `wayfinder:map`, holding the Notes / Decisions-so-far / Fog body. `gh issue create --label wayfinder:map`.
 - **Child ticket**: an issue linked to the map as a GitHub sub-issue (`gh api` on the sub-issues endpoint). Where sub-issues aren't enabled, add the child to a task list in the map body and put `Part of #<map>` at the top of the child body. Labels: `wayfinder:<type>` (`research`/`prototype`/`grilling`/`task`). Once claimed, the ticket is assigned to the driving dev.
